@@ -1,0 +1,119 @@
+[
+  {
+    "ContainingType": "Collabzone.Controllers.GroupController",
+    "Method": "AddMember",
+    "RelativePath": "api/Group/AddMember",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "groupMember",
+        "Type": "Collabzone.Models.GroupMember",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Collabzone.Controllers.GroupController",
+    "Method": "ChangeAdmin",
+    "RelativePath": "api/Group/ChangeAdmin",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Collabzone.Controllers.ChangeAdminRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Collabzone.Controllers.GroupController",
+    "Method": "CreateGroup",
+    "RelativePath": "api/Group/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newGroup",
+        "Type": "Collabzone.Models.Group",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Collabzone.Controllers.GroupController",
+    "Method": "DeleteGroup",
+    "RelativePath": "api/Group/DeleteGroup/{groupId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "groupId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Collabzone.Controllers.GroupController",
+    "Method": "GetGroupMembers",
+    "RelativePath": "api/Group/GetGroupMembers/{groupId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "groupId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Collabzone.Controllers.GroupController",
+    "Method": "RemoveMember",
+    "RelativePath": "api/Group/RemoveMember/{groupId}/{userId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "groupId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Collabzone.Controllers.GroupController",
+    "Method": "UpdateGroup",
+    "RelativePath": "api/Group/UpdateGroup",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updatedGroup",
+        "Type": "Collabzone.Models.Group",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
